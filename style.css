@@ -833,17 +833,17 @@ body.view-control-buttons .viewControlButton {
    CUSTOM OVERRIDES
    ============================================= */
 
-/* Hide the scene list sidebar and its toggle button */
+/* Hide the scene list sidebar and its toggle button (Restored)
 #sceneList, #sceneListToggle {
-  display: none !important;
+  
 }
+*/
 
-/* Hide the title bar (image/scene name banner) */
-#titleBar {
-  display: none !important;
-}
+
 
 /* Hide tooltips on navigation arrow hotspots */
 .link-hotspot-tooltip {
   display: none !important;
 }
+
+

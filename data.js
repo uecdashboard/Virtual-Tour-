@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-img_20260512_104929_00_187",
-      "name": "IMG_20260512_104929_00_187",
+      "name": "Emergency Room غرفة الطوارئ",
       "levels": [
         {
           "tileSize": 256,
@@ -40,7 +40,7 @@ var APP_DATA = {
     },
     {
       "id": "1-img_20260512_105049_00_189",
-      "name": "IMG_20260512_105049_00_189",
+      "name": "Emergency Room غرفة الطوارئ",
       "levels": [
         {
           "tileSize": 256,
@@ -78,7 +78,7 @@ var APP_DATA = {
     },
     {
       "id": "2-img_20260512_105134_00_190",
-      "name": "IMG_20260512_105134_00_190",
+      "name": "Emergency Room غرفة الطوارئ",
       "levels": [
         {
           "tileSize": 256,
@@ -116,7 +116,7 @@ var APP_DATA = {
     },
     {
       "id": "3-img_20260512_105207_00_191",
-      "name": "IMG_20260512_105207_00_191",
+      "name": "Emergency Room غرفة الطوارئ",
       "levels": [
         {
           "tileSize": 256,
@@ -154,7 +154,7 @@ var APP_DATA = {
     },
     {
       "id": "4-img_20260512_105240_00_192",
-      "name": "IMG_20260512_105240_00_192",
+      "name": "Emergency Entrance   مدخل الطوارئ",
       "levels": [
         {
           "tileSize": 256,
@@ -192,7 +192,7 @@ var APP_DATA = {
     },
     {
       "id": "5-img_20260512_105304_00_193",
-      "name": "IMG_20260512_105304_00_193",
+      "name": "Emergency Entrance   مدخل الطوارئ",
       "levels": [
         {
           "tileSize": 256,
@@ -230,7 +230,7 @@ var APP_DATA = {
     },
     {
       "id": "6-img_20260512_105430_00_196",
-      "name": "IMG_20260512_105430_00_196",
+      "name": "Triage Room غرفة التغيير و الفرز",
       "levels": [
         {
           "tileSize": 256,
@@ -268,7 +268,7 @@ var APP_DATA = {
     },
     {
       "id": "7-img_20260512_105503_00_197",
-      "name": "IMG_20260512_105503_00_197",
+      "name": "Triage Room غرفة التغيير و الفرز",
       "levels": [
         {
           "tileSize": 256,
@@ -306,7 +306,7 @@ var APP_DATA = {
     },
     {
       "id": "8-img_20260512_105625_00_199",
-      "name": "IMG_20260512_105625_00_199",
+      "name": "Triage Room غرفة التغيير و الفرز",
       "levels": [
         {
           "tileSize": 256,
@@ -343,8 +343,46 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
+      "id": "117-img_20260512_105711_00_200",
+      "name": "In front of Triage Room",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1632,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.9212227645805093,
+          "pitch": -0.05470899697228404,
+          "rotation": 4.71238898038469,
+          "target": "9-img_20260512_105938_00_204"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
       "id": "9-img_20260512_105938_00_204",
-      "name": "IMG_20260512_105938_00_204",
+      "name": "Hospital Main Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -382,7 +420,7 @@ var APP_DATA = {
     },
     {
       "id": "10-img_20260512_110133_00_206",
-      "name": "IMG_20260512_110133_00_206",
+      "name": "The Way to Operating Room",
       "levels": [
         {
           "tileSize": 256,
@@ -420,7 +458,7 @@ var APP_DATA = {
     },
     {
       "id": "11-img_20260512_110504_00_209",
-      "name": "IMG_20260512_110504_00_209",
+      "name": "The Way to Operating Room",
       "levels": [
         {
           "tileSize": 256,
@@ -458,7 +496,7 @@ var APP_DATA = {
     },
     {
       "id": "12-img_20260512_110537_00_210",
-      "name": "IMG_20260512_110537_00_210",
+      "name": "In front of the Operating Room",
       "levels": [
         {
           "tileSize": 256,
@@ -496,7 +534,7 @@ var APP_DATA = {
     },
     {
       "id": "13-img_20260512_110721_00_213",
-      "name": "IMG_20260512_110721_00_213",
+      "name": "Doctors’ Rest استراحة الأطباء",
       "levels": [
         {
           "tileSize": 256,
@@ -534,7 +572,7 @@ var APP_DATA = {
     },
     {
       "id": "14-img_20260512_110959_00_217",
-      "name": "IMG_20260512_110959_00_217",
+      "name": "Doctor's Rest bathroom",
       "levels": [
         {
           "tileSize": 256,
@@ -572,7 +610,7 @@ var APP_DATA = {
     },
     {
       "id": "15-img_20260512_112101_00_239",
-      "name": "IMG_20260512_112101_00_239",
+      "name": "In front of Doctor's Rest",
       "levels": [
         {
           "tileSize": 256,
@@ -610,7 +648,7 @@ var APP_DATA = {
     },
     {
       "id": "16-img_20260512_111704_00_233",
-      "name": "IMG_20260512_111704_00_233",
+      "name": "Anesthesia preparation Room غرفة تحضير التخدير",
       "levels": [
         {
           "tileSize": 256,
@@ -648,7 +686,7 @@ var APP_DATA = {
     },
     {
       "id": "17-img_20260512_112000_00_237",
-      "name": "IMG_20260512_112000_00_237",
+      "name": "Recovery Room غرفة الافاقة",
       "levels": [
         {
           "tileSize": 256,
@@ -686,7 +724,7 @@ var APP_DATA = {
     },
     {
       "id": "18-img_20260512_112020_00_238",
-      "name": "IMG_20260512_112020_00_238",
+      "name": "Recovery Room غرفة الافاقة",
       "levels": [
         {
           "tileSize": 256,
@@ -724,7 +762,7 @@ var APP_DATA = {
     },
     {
       "id": "19-img_20260512_112140_00_240",
-      "name": "IMG_20260512_112140_00_240",
+      "name": "Recovery Room غرفة الافاقة",
       "levels": [
         {
           "tileSize": 256,
@@ -762,7 +800,7 @@ var APP_DATA = {
     },
     {
       "id": "20-img_20260512_112401_00_244",
-      "name": "IMG_20260512_112401_00_244",
+      "name": "Recovery Room غرفة الافاقة",
       "levels": [
         {
           "tileSize": 256,
@@ -793,7 +831,7 @@ var APP_DATA = {
     },
     {
       "id": "21-img_20260512_112429_00_245",
-      "name": "IMG_20260512_112429_00_245",
+      "name": "Recovery Room غرفة الافاقة",
       "levels": [
         {
           "tileSize": 256,
@@ -831,7 +869,7 @@ var APP_DATA = {
     },
     {
       "id": "22-img_20260512_112555_00_248",
-      "name": "IMG_20260512_112555_00_248",
+      "name": "In Front of Anesthesia Preparation Room",
       "levels": [
         {
           "tileSize": 256,
@@ -869,7 +907,7 @@ var APP_DATA = {
     },
     {
       "id": "23-img_20260512_113032_00_250",
-      "name": "IMG_20260512_113032_00_250",
+      "name": "Hospital Main Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -907,7 +945,7 @@ var APP_DATA = {
     },
     {
       "id": "24-img_20260512_113103_00_251",
-      "name": "IMG_20260512_113103_00_251",
+      "name": "Hospital Main Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -945,7 +983,7 @@ var APP_DATA = {
     },
     {
       "id": "25-img_20260512_113342_00_255",
-      "name": "IMG_20260512_113342_00_255",
+      "name": "Out patient clinics العيادات الخارجية",
       "levels": [
         {
           "tileSize": 256,
@@ -983,7 +1021,7 @@ var APP_DATA = {
     },
     {
       "id": "26-img_20260512_113427_00_256",
-      "name": "IMG_20260512_113427_00_256",
+      "name": "Out patient clinics العيادات الخارجية",
       "levels": [
         {
           "tileSize": 256,
@@ -1021,7 +1059,7 @@ var APP_DATA = {
     },
     {
       "id": "27-img_20260512_113525_00_257",
-      "name": "IMG_20260512_113525_00_257",
+      "name": "Out patient clinics العيادات الخارجية",
       "levels": [
         {
           "tileSize": 256,
@@ -1058,380 +1096,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "28-img_20260512_113648_00_258",
-      "name": "IMG_20260512_113648_00_258",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "29-img_20260512_113713_00_259",
-      "name": "IMG_20260512_113713_00_259",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "30-img_20260512_113908_00_260",
-      "name": "IMG_20260512_113908_00_260",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "31-img_20260512_114028_00_261",
-      "name": "IMG_20260512_114028_00_261",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "32-img_20260512_114058_00_262",
-      "name": "IMG_20260512_114058_00_262",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "33-img_20260512_114139_00_263",
-      "name": "IMG_20260512_114139_00_263",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "34-img_20260512_114207_00_264",
-      "name": "IMG_20260512_114207_00_264",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "35-img_20260512_114252_00_265",
-      "name": "IMG_20260512_114252_00_265",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "36-img_20260512_114403_00_266",
-      "name": "IMG_20260512_114403_00_266",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "37-img_20260512_114446_00_267",
-      "name": "IMG_20260512_114446_00_267",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "38-img_20260512_114530_00_268",
-      "name": "IMG_20260512_114530_00_268",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "39-img_20260512_114618_00_269",
-      "name": "IMG_20260512_114618_00_269",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "40-img_20260512_114651_00_270",
-      "name": "IMG_20260512_114651_00_270",
+      "name": "Out patient clinics العيادات الخارجية",
       "levels": [
         {
           "tileSize": 256,
@@ -1468,39 +1134,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "41-img_20260512_114742_00_271",
-      "name": "IMG_20260512_114742_00_271",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "42-img_20260512_114856_00_272",
-      "name": "IMG_20260512_114856_00_272",
+      "name": "Hospital Corridor",
       "levels": [
         {
           "tileSize": 256,
@@ -1537,132 +1172,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "43-img_20260512_114941_00_273",
-      "name": "IMG_20260512_114941_00_273",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "44-img_20260512_115048_00_274",
-      "name": "IMG_20260512_115048_00_274",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "45-img_20260512_115137_00_275",
-      "name": "IMG_20260512_115137_00_275",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "46-img_20260512_115208_00_276",
-      "name": "IMG_20260512_115208_00_276",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "47-img_20260512_115245_00_277",
-      "name": "IMG_20260512_115245_00_277",
+      "name": "Intensive care الرعاية المركزة",
       "levels": [
         {
           "tileSize": 256,
@@ -1700,7 +1211,7 @@ var APP_DATA = {
     },
     {
       "id": "48-img_20260512_115608_00_278",
-      "name": "IMG_20260512_115608_00_278",
+      "name": "Intensive care الرعاية المركزة",
       "levels": [
         {
           "tileSize": 256,
@@ -1738,7 +1249,7 @@ var APP_DATA = {
     },
     {
       "id": "49-img_20260512_115706_00_279",
-      "name": "IMG_20260512_115706_00_279",
+      "name": "Intensive care الرعاية المركزة",
       "levels": [
         {
           "tileSize": 256,
@@ -1775,39 +1286,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "50-img_20260512_115733_00_280",
-      "name": "IMG_20260512_115733_00_280",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "51-img_20260512_115813_00_281",
-      "name": "IMG_20260512_115813_00_281",
+      "name": "Hospital Corridor",
       "levels": [
         {
           "tileSize": 256,
@@ -1844,70 +1324,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "52-img_20260512_115848_00_282",
-      "name": "IMG_20260512_115848_00_282",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "53-img_20260512_115929_00_283",
-      "name": "IMG_20260512_115929_00_283",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "54-img_20260512_115956_00_284",
-      "name": "IMG_20260512_115956_00_284",
+      "name": "Patient Rooms غرفة المرضى (A 150)",
       "levels": [
         {
           "tileSize": 256,
@@ -1944,70 +1362,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "55-img_20260512_120020_00_285",
-      "name": "IMG_20260512_120020_00_285",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "56-img_20260512_120047_00_286",
-      "name": "IMG_20260512_120047_00_286",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "57-img_20260512_120133_00_287",
-      "name": "IMG_20260512_120133_00_287",
+      "name": "In front of Intensive Care",
       "levels": [
         {
           "tileSize": 256,
@@ -2045,7 +1401,7 @@ var APP_DATA = {
     },
     {
       "id": "58-img_20260512_121327_00_291",
-      "name": "IMG_20260512_121327_00_291",
+      "name": "Patients Rooms",
       "levels": [
         {
           "tileSize": 256,
@@ -2082,39 +1438,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "59-img_20260512_121416_00_292",
-      "name": "IMG_20260512_121416_00_292",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "60-img_20260512_121447_00_293",
-      "name": "IMG_20260512_121447_00_293",
+      "name": "Patients Rooms",
       "levels": [
         {
           "tileSize": 256,
@@ -2152,7 +1477,7 @@ var APP_DATA = {
     },
     {
       "id": "61-img_20260512_121526_00_294",
-      "name": "IMG_20260512_121526_00_294",
+      "name": "Patient Rooms غرفة المرضى (A 150)",
       "levels": [
         {
           "tileSize": 256,
@@ -2189,70 +1514,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "62-img_20260512_121555_00_295",
-      "name": "IMG_20260512_121555_00_295",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "63-img_20260512_121645_00_296",
-      "name": "IMG_20260512_121645_00_296",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "64-img_20260512_121715_00_297",
-      "name": "IMG_20260512_121715_00_297",
+      "name": "Patients Rooms",
       "levels": [
         {
           "tileSize": 256,
@@ -2290,7 +1553,7 @@ var APP_DATA = {
     },
     {
       "id": "65-img_20260512_121739_00_298",
-      "name": "IMG_20260512_121739_00_298",
+      "name": "Patient Bathroom",
       "levels": [
         {
           "tileSize": 256,
@@ -2327,101 +1590,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "66-img_20260512_121809_00_299",
-      "name": "IMG_20260512_121809_00_299",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "67-img_20260512_122735_00_300",
-      "name": "IMG_20260512_122735_00_300",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "68-img_20260512_122812_00_301",
-      "name": "IMG_20260512_122812_00_301",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "69-img_20260512_122845_00_302",
-      "name": "IMG_20260512_122845_00_302",
+      "name": "Alex AI simulator",
       "levels": [
         {
           "tileSize": 256,
@@ -2458,39 +1628,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "70-img_20260512_122915_00_303",
-      "name": "IMG_20260512_122915_00_303",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "71-img_20260512_122955_00_304",
-      "name": "IMG_20260512_122955_00_304",
+      "name": "Alex AI simulator",
       "levels": [
         {
           "tileSize": 256,
@@ -2528,7 +1667,7 @@ var APP_DATA = {
     },
     {
       "id": "72-img_20260512_123602_00_305",
-      "name": "IMG_20260512_123602_00_305",
+      "name": "In Front of Alex AI Simulator Room",
       "levels": [
         {
           "tileSize": 256,
@@ -2566,7 +1705,7 @@ var APP_DATA = {
     },
     {
       "id": "73-img_20260512_153147_00_317",
-      "name": "IMG_20260512_153147_00_317",
+      "name": "Security Control Room",
       "levels": [
         {
           "tileSize": 256,
@@ -2603,318 +1742,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "74-img_20260512_153300_00_318",
-      "name": "IMG_20260512_153300_00_318",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "75-img_20260512_153339_00_319",
-      "name": "IMG_20260512_153339_00_319",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "76-img_20260512_153425_00_320",
-      "name": "IMG_20260512_153425_00_320",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "77-img_20260512_153505_00_321",
-      "name": "IMG_20260512_153505_00_321",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "78-img_20260512_153546_00_322",
-      "name": "IMG_20260512_153546_00_322",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "79-img_20260512_153648_00_323",
-      "name": "IMG_20260512_153648_00_323",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "80-img_20260512_153718_00_324",
-      "name": "IMG_20260512_153718_00_324",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "81-img_20260512_153755_00_325",
-      "name": "IMG_20260512_153755_00_325",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "82-img_20260512_153833_00_326",
-      "name": "IMG_20260512_153833_00_326",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "83-img_20260512_153913_00_327",
-      "name": "IMG_20260512_153913_00_327",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "84-img_20260512_153924_00_328",
-      "name": "IMG_20260512_153924_00_328",
+      "name": "Hospital Corridor",
       "levels": [
         {
           "tileSize": 256,
@@ -2951,287 +1780,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "85-img_20260512_153947_00_329",
-      "name": "IMG_20260512_153947_00_329",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "86-img_20260512_154012_00_330",
-      "name": "IMG_20260512_154012_00_330",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "87-img_20260512_154101_00_331",
-      "name": "IMG_20260512_154101_00_331",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "88-img_20260512_154122_00_332",
-      "name": "IMG_20260512_154122_00_332",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "89-img_20260512_154147_00_333",
-      "name": "IMG_20260512_154147_00_333",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "90-img_20260512_154209_00_334",
-      "name": "IMG_20260512_154209_00_334",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "91-img_20260512_154310_00_335",
-      "name": "IMG_20260512_154310_00_335",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "92-img_20260512_154405_00_336",
-      "name": "IMG_20260512_154405_00_336",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "93-img_20260512_154421_00_337",
-      "name": "IMG_20260512_154421_00_337",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "94-img_20260512_154453_00_338",
-      "name": "IMG_20260512_154453_00_338",
+      "name": "Patients Rooms",
       "levels": [
         {
           "tileSize": 256,
@@ -3269,7 +1819,7 @@ var APP_DATA = {
     },
     {
       "id": "95-img_20260512_154543_00_339",
-      "name": "IMG_20260512_154543_00_339",
+      "name": "Patients Rooms",
       "levels": [
         {
           "tileSize": 256,
@@ -3306,70 +1856,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "96-img_20260512_154617_00_340",
-      "name": "IMG_20260512_154617_00_340",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "97-img_20260512_154646_00_341",
-      "name": "IMG_20260512_154646_00_341",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "98-img_20260512_154711_00_342",
-      "name": "IMG_20260512_154711_00_342",
+      "name": "Patients Rooms",
       "levels": [
         {
           "tileSize": 256,
@@ -3396,602 +1884,6 @@ var APP_DATA = {
         "fov": 1.335888521808506
       },
       "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "99-img_20260512_154737_00_343",
-      "name": "IMG_20260512_154737_00_343",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "100-img_20260512_154811_00_344",
-      "name": "IMG_20260512_154811_00_344",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "101-img_20260512_154838_00_345",
-      "name": "IMG_20260512_154838_00_345",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "102-img_20260512_154903_00_346",
-      "name": "IMG_20260512_154903_00_346",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "103-img_20260512_154941_00_347",
-      "name": "IMG_20260512_154941_00_347",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "104-img_20260512_155004_00_348",
-      "name": "IMG_20260512_155004_00_348",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "105-img_20260512_155039_00_349",
-      "name": "IMG_20260512_155039_00_349",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "106-img_20260512_155106_00_350",
-      "name": "IMG_20260512_155106_00_350",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "107-img_20260512_155127_00_351",
-      "name": "IMG_20260512_155127_00_351",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "108-img_20260512_155156_00_352",
-      "name": "IMG_20260512_155156_00_352",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "109-img_20260512_155223_00_353",
-      "name": "IMG_20260512_155223_00_353",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "110-img_20260512_155512_00_354",
-      "name": "IMG_20260512_155512_00_354",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "111-img_20260512_155614_00_355",
-      "name": "IMG_20260512_155614_00_355",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "112-img_20260512_155650_00_356",
-      "name": "IMG_20260512_155650_00_356",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "113-img_20260512_155736_00_357",
-      "name": "IMG_20260512_155736_00_357",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "114-img_20260512_155804_00_358",
-      "name": "IMG_20260512_155804_00_358",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "115-img_20260512_155830_00_359",
-      "name": "IMG_20260512_155830_00_359",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "116-img_20260512_155853_00_360",
-      "name": "IMG_20260512_155853_00_360",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "117-img_20260512_105711_00_200",
-      "name": "IMG_20260512_105711_00_200",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.9212227645805093,
-          "pitch": -0.05470899697228404,
-          "rotation": 4.71238898038469,
-          "target": "9-img_20260512_105938_00_204"
-        }
-      ],
       "infoHotspots": []
     }
   ],

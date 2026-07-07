@@ -25,7 +25,7 @@
   var panoElement = document.querySelector('#pano');
   var sceneNameElement = document.querySelector('#titleBar .sceneName');
   var sceneListElement = document.querySelector('#sceneList');
-  var sceneElements = document.querySelectorAll('#sceneList .scene');
+  var sceneElements = []; // Populated dynamically below
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
@@ -145,10 +145,31 @@
     showSceneList();
   }
 
-  // Set handler for scene switch.
+  // Clear the hardcoded scene list and build it dynamically based on active scenes
+  var container = document.querySelector('#sceneList .scenes');
+  if (container) {
+    container.innerHTML = '';
+  }
+
+  // Populate dynamic scene list and assign switch handlers
   scenes.forEach(function(scene) {
-    var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
-    el.addEventListener('click', function() {
+    var a = document.createElement('a');
+    a.href = 'javascript:void(0)';
+    a.className = 'scene';
+    a.setAttribute('data-id', scene.data.id);
+
+    var li = document.createElement('li');
+    li.className = 'text';
+    li.textContent = scene.data.name;
+
+    a.appendChild(li);
+    if (container) {
+      container.appendChild(a);
+    }
+
+    sceneElements.push(a);
+
+    a.addEventListener('click', function() {
       switchScene(scene);
       // On mobile, hide scene list after selecting a scene.
       if (document.body.classList.contains('mobile')) {
@@ -385,6 +406,8 @@
     }
     return null;
   }
+
+
 
   // Display the initial scene.
   switchScene(scenes[0]);
