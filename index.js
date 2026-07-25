@@ -200,8 +200,8 @@
   controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
 
   // Dynamic Automated Virtual Tour Controller
-  var IDLE_TIMEOUT = 4000;    // 4 seconds idle before resuming auto tour
-  var SCENE_DURATION = 4000;  // Rotate and display each scene for 4 seconds before switching
+  var IDLE_TIMEOUT = 6000;    // 6 seconds idle before resuming auto tour
+  var SCENE_DURATION = 6000;  // Rotate and display each scene for 6 seconds before switching
   var idleTimer = null;
   var sceneStepTimer = null;
   var currentSceneIndex = 0;
