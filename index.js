@@ -201,7 +201,7 @@
 
   // Dynamic Automated Virtual Tour Controller
   var IDLE_TIMEOUT = 2000;    // 2 seconds idle before resuming auto tour
-  var SCENE_DURATION = 3000;  // Rotate and display each scene for 3 seconds before switching
+  var SCENE_DURATION = 4000;  // Rotate and display each scene for 4 seconds before switching
   var idleTimer = null;
   var sceneStepTimer = null;
   var currentSceneIndex = 0;
@@ -242,13 +242,20 @@
     }, IDLE_TIMEOUT);
   }
 
-  // Register interaction listeners to pause auto-tour and start 2-second idle countdown
-  var userEvents = ['mousedown', 'mousemove', 'mouseup', 'pointerdown', 'pointermove', 'pointerup', 'touchstart', 'touchmove', 'touchend', 'wheel', 'keydown', 'click'];
+  // Register interaction listeners to pause auto-tour when user actively drags, clicks, touches, or scrolls
+  var userEvents = ['mousedown', 'mouseup', 'pointerdown', 'pointerup', 'touchstart', 'touchmove', 'touchend', 'wheel', 'keydown', 'click'];
   userEvents.forEach(function(ev) {
     window.addEventListener(ev, function() {
       resetIdleTimer();
     }, { passive: true, capture: true });
   });
+
+  // Also handle mousemove ONLY when dragging (mouse button is pressed)
+  window.addEventListener('mousemove', function(e) {
+    if (e.buttons > 0) {
+      resetIdleTimer();
+    }
+  }, { passive: true, capture: true });
 
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
