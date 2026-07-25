@@ -199,17 +199,77 @@
   controls.registerMethod('inElement',    new Marzipano.ElementPressControlMethod(viewInElement,  'zoom', -velocity, friction), true);
   controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
 
+  // Dynamic Automated Virtual Tour Controller
+  var IDLE_TIMEOUT = 2000;    // 2 seconds idle before resuming auto tour
+  var SCENE_DURATION = 3000;  // Rotate and display each scene for 3 seconds before switching
+  var idleTimer = null;
+  var sceneStepTimer = null;
+  var currentSceneIndex = 0;
+  var isAutoTourActive = false;
+
+  function startAutoTour() {
+    isAutoTourActive = true;
+    startAutorotate();
+
+    if (sceneStepTimer) {
+      clearTimeout(sceneStepTimer);
+    }
+
+    sceneStepTimer = setTimeout(function() {
+      if (isAutoTourActive && scenes.length > 0) {
+        currentSceneIndex = (currentSceneIndex + 1) % scenes.length;
+        switchScene(scenes[currentSceneIndex], true);
+      }
+    }, SCENE_DURATION);
+  }
+
+  function stopAutoTour() {
+    isAutoTourActive = false;
+    stopAutorotate();
+    if (sceneStepTimer) {
+      clearTimeout(sceneStepTimer);
+      sceneStepTimer = null;
+    }
+  }
+
+  function resetIdleTimer() {
+    stopAutoTour();
+    if (idleTimer) {
+      clearTimeout(idleTimer);
+    }
+    idleTimer = setTimeout(function() {
+      startAutoTour();
+    }, IDLE_TIMEOUT);
+  }
+
+  // Register interaction listeners to pause auto-tour and start 2-second idle countdown
+  var userEvents = ['mousedown', 'mousemove', 'mouseup', 'pointerdown', 'pointermove', 'pointerup', 'touchstart', 'touchmove', 'touchend', 'wheel', 'keydown', 'click'];
+  userEvents.forEach(function(ev) {
+    window.addEventListener(ev, function() {
+      resetIdleTimer();
+    }, { passive: true, capture: true });
+  });
+
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
   }
 
-  function switchScene(scene) {
+  function switchScene(scene, isAuto) {
+    var idx = scenes.indexOf(scene);
+    if (idx !== -1) {
+      currentSceneIndex = idx;
+    }
     stopAutorotate();
     scene.view.setParameters(scene.data.initialViewParameters);
     scene.scene.switchTo();
-    startAutorotate();
     updateSceneName(scene);
     updateSceneList(scene);
+
+    if (isAuto) {
+      startAutoTour();
+    } else {
+      resetIdleTimer();
+    }
   }
 
   function updateSceneName(scene) {
@@ -409,7 +469,7 @@
 
 
 
-  // Display the initial scene.
-  switchScene(scenes[0]);
+  // Display the initial scene and start automated tour mode.
+  switchScene(scenes[0], true);
 
 })();
