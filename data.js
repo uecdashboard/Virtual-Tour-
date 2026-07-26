@@ -156,37 +156,6 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "41-img_20260512_114651_00_270",
-      "name": "Out patient clinics العيادات الخارجية",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "yaw": -2.391690790482013,
-        "pitch": 0.21014213480057897,
-        "fov": 1.335888521808506
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
       "id": "43-img_20260512_114856_00_272",
       "name": "Hospital Corridor",
       "levels": [
@@ -212,44 +181,6 @@ var APP_DATA = {
       "initialViewParameters": {
         "yaw": 2.920508987412342,
         "pitch": 0.033456360251953754,
-        "fov": 1.335888521808506
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.765862871783952,
-          "pitch": -0.0391404709280323,
-          "rotation": 0,
-          "target": "48-img_20260512_115245_00_277"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "48-img_20260512_115245_00_277",
-      "name": "Intensive care الرعاية المركزة",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "yaw": -3.0787811114857,
-        "pitch": 0.24266642330641375,
         "fov": 1.335888521808506
       },
       "linkHotspots": [],
@@ -281,44 +212,6 @@ var APP_DATA = {
       "initialViewParameters": {
         "yaw": -3.0601186088682404,
         "pitch": 0.3697971124888433,
-        "fov": 1.335888521808506
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3737020938269104,
-          "pitch": -0.017057987859448787,
-          "rotation": 0,
-          "target": "58-img_20260512_120133_00_287"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "58-img_20260512_120133_00_287",
-      "name": "In front of Intensive Care",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "yaw": 0.36419788054241486,
-        "pitch": 0.16070738078115987,
         "fov": 1.335888521808506
       },
       "linkHotspots": [],
@@ -413,37 +306,6 @@ var APP_DATA = {
         "yaw": 2.928707190779358,
         "pitch": 0.07418715342747007,
         "fov": 1.335888521808506
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "118-img_20260512_105711_00_200",
-      "name": "In front of Triage Room",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
