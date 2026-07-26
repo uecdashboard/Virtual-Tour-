@@ -879,14 +879,7 @@ var APP_DATA = {
         "pitch": 0.11270656770074616,
         "fov": 1.335888521808506
       },
-      "linkHotspots": [
-        {
-          "yaw": -1.7227087629827285,
-          "pitch": -0.0605162978458722,
-          "rotation": 4.71238898038469,
-          "target": "72-img_20260512_122955_00_304"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
@@ -1042,44 +1035,6 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "72-img_20260512_122955_00_304",
-      "name": "Alex AI simulator",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1632,
-      "initialViewParameters": {
-        "yaw": 2.8730215805509083,
-        "pitch": 0.22894445697606258,
-        "fov": 1.335888521808506
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.7991482985525113,
-          "pitch": 0.28154902137878857,
-          "rotation": 0,
-          "target": "70-img_20260512_122845_00_302"
-        }
-      ],
       "infoHotspots": []
     },
     {
