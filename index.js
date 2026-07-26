@@ -313,8 +313,15 @@
     if (!autorotateToggleElement.classList.contains('enabled')) {
       return;
     }
-    viewer.startMovement(autorotate);
-    viewer.setIdleMovement(3000, autorotate);
+    // Alternate rotation direction: even scenes pan left-to-right (+0.03), odd scenes pan right-to-left (-0.03)
+    var speed = (currentSceneIndex % 2 === 0) ? 0.03 : -0.03;
+    var currentAutorotate = Marzipano.autorotate({
+      yawSpeed: speed,
+      targetPitch: 0,
+      targetFov: Math.PI/2
+    });
+    viewer.startMovement(currentAutorotate);
+    viewer.setIdleMovement(3000, currentAutorotate);
   }
 
   function stopAutorotate() {
